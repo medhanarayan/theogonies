@@ -44,12 +44,7 @@ gsap.to('.textbox-container', {
     scrub: 0.3,
   }
 });
-// GSAP and ScrollTrigger Code
 
-// ... [Your existing GSAP and ScrollTrigger code]
-
-// Function to update blur value based on scroll position
-//const MAX_HEIGHT_VALUE = 200; 
 function updateBlur() {
     
     const scrollY = window.scrollY || window.pageYOffset;
