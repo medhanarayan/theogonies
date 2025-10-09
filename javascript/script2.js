@@ -12,7 +12,7 @@ window.onload = function() {
             start: "top 80%", // start the animation when the trigger element is 80% in view
             end: "bottom 10%", // end the animation when the trigger element is 20% from leaving the view
             scrub: true, // smooth scrubbing effect
-            markers: false // optional: shows markers to help visualize the ScrollTrigger region
+            markers: false 
         }
         
     });
@@ -23,7 +23,7 @@ window.onload = function() {
             start: "top 80%", // start the animation when the trigger element is 80% in view
             end: "bottom 10%", // end the animation when the trigger element is 20% from leaving the view
             scrub: true, // smooth scrubbing effect
-            markers: false // optional: shows markers to help visualize the ScrollTrigger region
+            markers: false 
         }
         
     });
@@ -34,7 +34,7 @@ window.onload = function() {
             start: "top 80%", // start the animation when the trigger element is 80% in view
             end: "bottom 10%", // end the animation when the trigger element is 20% from leaving the view
             scrub: true, // smooth scrubbing effect
-            markers: false// optional: shows markers to help visualize the ScrollTrigger region
+            markers: false
         }
         
     });
@@ -46,7 +46,7 @@ window.onload = function() {
             start: "top 80%", // start the animation when the trigger element is 80% in view
             end: "bottom 10%", // end the animation when the trigger element is 20% from leaving the view
             scrub: true, // smooth scrubbing effect
-            markers: false // optional: shows markers to help visualize the ScrollTrigger region
+            markers: false 
         }
         
     });
@@ -58,7 +58,7 @@ window.onload = function() {
             start: "top 80%", // start the animation when the trigger element is 80% in view
             end: "bottom 10%", // end the animation when the trigger element is 20% from leaving the view
             scrub: true, // smooth scrubbing effect
-            markers: false // optional: shows markers to help visualize the ScrollTrigger region
+            markers: false 
         }
         
     });
@@ -66,10 +66,10 @@ window.onload = function() {
         opacity: 1,
         scrollTrigger: {
             trigger: ".gooniesneversaydie",
-            start: "top 80%",  // Adjust as needed
-            end: "bottom 20%",  // Adjust as needed
+            start: "top 80%",  
+            end: "bottom 20%",  
             scrub: true,
-            markers: false  // Optional: shows markers to help visualize the ScrollTrigger region
+            markers: false  
         }
     });
 
@@ -78,16 +78,16 @@ window.onload = function() {
         opacity: 0,
         scrollTrigger: {
             trigger: ".gooniesneversaydie",
-            start: "bottom 10%",  // Adjust as needed
-            end: "bottom 5%",  // Adjust as needed
+            start: "bottom 10%",  
+            end: "bottom 5%",  
             scrub: true,
-            markers: false  // Optional: shows markers to help visualize the ScrollTrigger region
+            markers: false 
         }
     });
     gsap.to('.people_image', {
         y: -200, // move 100px upwards, adjust as needed
         scrollTrigger: {
-            trigger: '.skull_image', // adjust the trigger point if needed
+            trigger: '.skull_image', 
             start: 'top center',
             end: 'bottom center',
             scrub: false
