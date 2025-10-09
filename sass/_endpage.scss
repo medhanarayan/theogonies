@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;  // Centers the children vertically
-    align-items: center;      // Centers the children horizontally
+    align-items: center; // Centers the children horizontally
     position: relative;
     height: 100vh; 
-    color:white;           // Makes the section take up the full viewport height
+    color:white;    // section take up the full viewport height
     
     .endpage_text1,
     .endpage_text2,
@@ -29,9 +29,9 @@
         .endpage_text3 {
             font-size: 10px;
             letter-spacing: 1px;
-          position: absolute;     // Positions the element at the bottom
-          bottom: 30px;           // Adjust this value as needed for spacing
-          left: 50%;              // Centers the element horizontally
-          transform: translateX(-50%);  // Adjusts for the centering
+          position: absolute;// Positions the element at the bottom
+          bottom: 30px;           
+          left: 50%;  // Centers the element horizontally
+          transform: translateX(-50%);  
         }
       }
